@@ -1,0 +1,22 @@
+.hero {
+  background-image: url("./assests/star.svg");
+  background-repeat: no-repeat;
+  /* overflow-y:hidden;  */
+  width: 98vw;
+  height: 230vh;
+  /* object-fit: fil; */
+  background-size: 100% 100%;
+  /* background-position-x: -30rem; */
+  position: relative;
+  z-index: -2;
+  /* border:10px solid magenta; */
+}
+body {
+  background-color: #0d1117;
+  /* overflow: hidden; */
+}
+.spaceShip {
+  position: absolute;
+  top: 5rem;
+  right: 4rem;
+}
