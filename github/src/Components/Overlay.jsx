@@ -19,12 +19,13 @@ const Overlay = ({ data, error, city, closeOverlay }) => {
               <span className="close" onClick={closeOverlay}>
                 &times;
               </span>
-              <p>City: {data.name}</p>
-              <p>Temperature: {data.main.temp} °C</p>
-              <p>
+              <p  style={{color:"teal",fontSize:"25px",fontWeight:"bold"}}>{city}</p>
+              <p style={{color:"black",fontSize:"20px",fontWeight:"bold"}}>City: {data.name}</p>
+              <p style={{color:"black",fontSize:"20px",fontWeight:"bold"}}>Temperature: {data.main.temp} °C</p>
+              <p style={{color:"black",fontSize:"20px",fontWeight:"bold"}} >
                 Weather: {data.weather[0].main}, {data.weather[0].description}
               </p>
-              <p>Search Query: {city}</p>
+          
             </div>
           )}
         </div>
